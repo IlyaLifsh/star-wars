@@ -53,17 +53,20 @@ nav ul {
 	width: 50%;
 	border: 1px solid #eedb00;
 	border-radius: 0 0 16px 16px;
-	margin: 0.3rem 0 0 0.6rem;
+	margin: 0.3rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	}
 
 .right img {
-	float: left;
 	width: 33%;
-	margin: calc(1% / 6);
+	margin: 1px 0;
 	}
 
 .right > h2 {
 	text-align: center;
+	flex-basis: 100%;
 	}
 
 .far-galaxy {
@@ -103,14 +106,4 @@ footer .button {
 	padding: 0.3em 0.6em;
 	border-radius: 5px;
 	}
-
-
-
-/*
-Доделайте оформление css так, что бы максимально подходило под
-дизайн картинки с использованием технологии флоат
-
-Пока таблицы не используем и index не меняем
- */
-
 
