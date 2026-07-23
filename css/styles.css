@@ -4,15 +4,20 @@
 	margin: 0;
 	}
 
+:root {
+	--primary-color: #eedb00;
+	--secondary-color: 60, 69, 67;
+	}
+
 body {
 	font-family: "Poller One", sans-serif;
 	background-image: url("../Images/sky.jpg");
-	color: #eedb00;
+	color: var(--primary-color);
 	background-attachment: fixed;
 	}
 
 header, footer {
-	background-color: rgba(60, 69, 67, 0.6);
+	background-color: rgba(var(--secondary-color), 0.6);
 	}
 
 header {
@@ -51,7 +56,7 @@ nav ul {
 .right {
 	float: right;
 	width: 50%;
-	border: 1px solid #eedb00;
+	border: 1px solid var(--primary-color);
 	border-radius: 0 0 16px 16px;
 	margin: 0.3rem;
 	display: flex;
